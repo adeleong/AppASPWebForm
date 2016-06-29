@@ -11,7 +11,13 @@ namespace AppWebForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Submit.ServerClick += Submit_ServerCLick;
 
+        }
+
+        void Submit_ServerCLick(object sender, EventArgs e)
+        {
+            Message.InnerHtml = "You are 30";
         }
     }
 }
