@@ -10,12 +10,14 @@
     <form id="form1" runat="server">
         <div>
             <br />
-            Enter your birthdate<br />
-            <input id="BirthDate" type="text" runat="server"/>
+            <asp:Label ID="Label1" runat="server" Text="Enter your birthdate"></asp:Label>
             <br />
-            <input id="Submit" type="submit" value="submit" runat="server"/>
+            <asp:TextBox ID="BirthDate" runat="server"></asp:TextBox>
             <br />
-            <div id="Message" runat="server"></div>
+            <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Submit_Click" />
+            <br />
+            <asp:Label ID="Message" runat="server" Text=""></asp:Label>
+            <br />
         </div>
     </form>
 </body>
