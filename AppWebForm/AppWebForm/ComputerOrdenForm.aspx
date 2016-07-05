@@ -25,7 +25,7 @@
         <br />
         <br />
         <asp:Label ID="Label6" runat="server" Text="Delivery Date"></asp:Label>
-        <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="250px" NextPrevFormat="ShortMonth" Width="330px">
+        <asp:Calendar ID="DeliveryDate" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="250px" NextPrevFormat="ShortMonth" Width="330px">
             <DayHeaderStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" Height="8pt" />
             <DayStyle BackColor="#CCCCCC" />
             <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="White" />
@@ -36,13 +36,13 @@
         </asp:Calendar>
         <br />
         <asp:Label ID="Label7" runat="server" Text="Part Number: "></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server" Width="48px"></asp:TextBox>
+        <asp:TextBox ID="partNumber" runat="server" Width="48px"></asp:TextBox>
         <br />
         <asp:Label ID="Label8" runat="server" Text="Rush? "></asp:Label>
         <asp:RadioButton ID="RushYes" runat="server" GroupName="Rush" Text="YES" />
         <asp:RadioButton ID="RushNo" runat="server" Checked="True" GroupName="Rush" Text="NO" />
         <br />
-        <asp:Button ID="Submit" runat="server" Text="OK" />
+        <asp:Button ID="Submit" runat="server" OnClick="Submit_Click" Text="OK" />
     </div>
     </form>
 </body>

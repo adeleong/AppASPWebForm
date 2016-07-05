@@ -10,7 +10,7 @@
 namespace AppWebForm {
     
     
-    public partial class ComputerOrdenForm {
+    public partial class ReviewComputerOrder {
         
         /// <summary>
         /// form1 control.
@@ -31,6 +31,15 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
+        /// OrderNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label OrderNumber;
+        
+        /// <summary>
         /// Label2 control.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,15 @@ namespace AppWebForm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// OrderName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label OrderName;
         
         /// <summary>
         /// Label3 control.
@@ -49,13 +67,13 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// orderName control.
+        /// CustomerName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox orderName;
+        protected global::System.Web.UI.WebControls.Label CustomerName;
         
         /// <summary>
         /// Label4 control.
@@ -67,13 +85,13 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// customerName control.
+        /// CustomerEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox customerName;
+        protected global::System.Web.UI.WebControls.Label CustomerEmail;
         
         /// <summary>
         /// Label5 control.
@@ -85,13 +103,13 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// customerEmail control.
+        /// DeliveryDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox customerEmail;
+        protected global::System.Web.UI.WebControls.Label DeliveryDate;
         
         /// <summary>
         /// Label6 control.
@@ -103,13 +121,13 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// DeliveryDate control.
+        /// PartNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar DeliveryDate;
+        protected global::System.Web.UI.WebControls.Label PartNumber;
         
         /// <summary>
         /// Label7 control.
@@ -121,48 +139,12 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// partNumber control.
+        /// RushOrder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox partNumber;
-        
-        /// <summary>
-        /// Label8 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label8;
-        
-        /// <summary>
-        /// RushYes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RushYes;
-        
-        /// <summary>
-        /// RushNo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RushNo;
-        
-        /// <summary>
-        /// Submit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Submit;
+        protected global::System.Web.UI.WebControls.Label RushOrder;
     }
 }
