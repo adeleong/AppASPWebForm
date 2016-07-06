@@ -14,9 +14,16 @@
             <br />
             <asp:TextBox ID="BirthDate" runat="server"></asp:TextBox>
             <br />
+            <asp:Label ID="Label2" runat="server" Text="Enter your Email"></asp:Label>
+            <br />
+            <asp:TextBox ID="Email" runat="server"></asp:TextBox>
+            <br />
             <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Submit_Click" />
+            <asp:Button ID="Retrieve" runat="server" OnClick="Retrieve_Click" Text="Retrieve" />
             <br />
             <asp:Label ID="Message" runat="server" Text=""></asp:Label>
+            <br />
+            <asp:Label ID="RetrieveMessage" runat="server" Text=""></asp:Label>
             <br />
         </div>
     </form>

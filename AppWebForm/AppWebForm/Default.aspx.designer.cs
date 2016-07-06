@@ -40,6 +40,24 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.TextBox BirthDate;
         
         /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// Email control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Email;
+        
+        /// <summary>
         /// Submit control.
         /// </summary>
         /// <remarks>
@@ -49,6 +67,15 @@ namespace AppWebForm {
         protected global::System.Web.UI.WebControls.Button Submit;
         
         /// <summary>
+        /// Retrieve control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Retrieve;
+        
+        /// <summary>
         /// Message control.
         /// </summary>
         /// <remarks>
@@ -56,5 +83,14 @@ namespace AppWebForm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Message;
+        
+        /// <summary>
+        /// RetrieveMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label RetrieveMessage;
     }
 }
