@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.0.0\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -95,10 +99,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ComputerOrdenForm.aspx" />
+    <Content Include="CookiesForm.aspx" />
+    <Content Include="DataDemo.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="scripts\jquery-3.0.0.intellisense.js" />
+    <Content Include="scripts\jquery-3.0.0.js" />
+    <Content Include="scripts\jquery-3.0.0.min.js" />
+    <Content Include="scripts\jquery-3.0.0.slim.js" />
+    <Content Include="scripts\jquery-3.0.0.slim.min.js" />
+    <Content Include="ValidationDemo.aspx" />
+    <Content Include="WebFormControls.aspx" />
+    <Content Include="scripts\jquery-3.0.0.slim.min.map" />
+    <Content Include="scripts\jquery-3.0.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -122,6 +137,20 @@
     <Compile Include="ComputerOrdenForm.aspx.designer.cs">
       <DependentUpon>ComputerOrdenForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CookiesForm.aspx.cs">
+      <DependentUpon>CookiesForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CookiesForm.aspx.designer.cs">
+      <DependentUpon>CookiesForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataDemo.aspx.cs">
+      <DependentUpon>DataDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataDemo.aspx.designer.cs">
+      <DependentUpon>DataDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,6 +169,20 @@
     </Compile>
     <Compile Include="ReviewComputerOrder.aspx.designer.cs">
       <DependentUpon>ReviewComputerOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationDemo.aspx.cs">
+      <DependentUpon>ValidationDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationDemo.aspx.designer.cs">
+      <DependentUpon>ValidationDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormControls.aspx.cs">
+      <DependentUpon>WebFormControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormControls.aspx.designer.cs">
+      <DependentUpon>WebFormControls.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
